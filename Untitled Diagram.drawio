@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T06:15:34.546Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="kxlvgL0i9mwnA_d5moOL" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-18T06:21:04.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="Y0bdNyetryAW5rLu4PdQ" version="14.8.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="931" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -46,11 +46,11 @@
         <mxCell id="EHGwApgXKRg0feo9bure-10" value="remove appCacheList" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="875" y="190" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EHGwApgXKRg0feo9bure-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="EHGwApgXKRg0feo9bure-15" edge="1">
+        <mxCell id="EHGwApgXKRg0feo9bure-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.162;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="EHGwApgXKRg0feo9bure-15" edge="1" source="EHGwApgXKRg0feo9bure-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="188" y="305" as="sourcePoint" />
+            <mxPoint x="250" y="305" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="188" y="305" />
+              <mxPoint x="196" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -58,7 +58,7 @@
           <mxGeometry x="865" y="290" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EHGwApgXKRg0feo9bure-17" value="websocket connect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="380" y="280" width="120" height="20" as="geometry" />
+          <mxGeometry x="300" y="310" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EHGwApgXKRg0feo9bure-21" value="init client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="320" y="380" width="60" height="20" as="geometry" />
@@ -126,6 +126,17 @@
         </mxCell>
         <mxCell id="EHGwApgXKRg0feo9bure-47" value="转发appList给客户端（正在更新中）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="535" y="500" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0ayAkpI1VaactcQMy7uL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.1;entryY=0.764;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EHGwApgXKRg0feo9bure-23" target="EHGwApgXKRg0feo9bure-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="470" />
+              <mxPoint x="560" y="497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ayAkpI1VaactcQMy7uL-5" value="VHD LOAD?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="470" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
